@@ -11,7 +11,7 @@ export default function Header() {
       </Link>
       <ul className="flex justify-center items-center gap-2 text-[#9C9C9C] md:gap-3 lg:gap-4">
         <Link href="/about">
-          {" "}
+     
           <li>about</li>
         </Link>
         <Link href="/contact-us">
