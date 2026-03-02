@@ -1,7 +1,10 @@
 import Image from "next/image";
+import LandingHeader from "./components/Landing/LandingHeader";
 
 export default function Home() {
   return (
-   <h1 >Shamiul islam</h1>
+   <div>
+     <LandingHeader></LandingHeader>
+   </div>
   );
 }

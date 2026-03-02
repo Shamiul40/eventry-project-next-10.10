@@ -1,11 +1,11 @@
 
 
-export default function landingHeader() {
+export default function LandingHeader() {
   return (
-    <nav>
-      <h1>Discover Events</h1>
+    <nav className="flex justify-between items-center">
+      <h1 className="text-2xl ">Discover Events</h1>
         <div>
-            <input type="text" placeholder="search"  />
+            <input className="bg-[#27292F] border border-[#CCCCCC]/20 py-1 px-2 rounded-md" type="text" placeholder="search"  />
         </div>
     </nav>
   )
