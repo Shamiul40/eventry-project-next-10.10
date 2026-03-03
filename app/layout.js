@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         <header>
             <Header></Header>
         </header>
-        <main className="py-8">
+        <main className="py-6">
           {children}
         </main>
       </body>
