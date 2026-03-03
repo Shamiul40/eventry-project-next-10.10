@@ -2,6 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import googleImage from "/public/assets/events/google-io-2023-1.png"
 import Link from 'next/link'
+import ActionButtons from '../ActionButtons'
 
 export default function EventCard() {
   return (
@@ -18,13 +19,7 @@ export default function EventCard() {
             </div>
 
             {/* <!-- Buttons --> */}
-            <div className="w-full flex gap-4 mt-4">
-              {/* <!-- bg-indigo-600 indicating Active --> */}
-              <button className="w-full bg-indigo-600 hover:bg-indigo-800">Interested</button>
-
-              {/* <!-- bg-green-600 indicating Active --> */}
-              <button className="w-full">Going</button>
-            </div>
+            <ActionButtons fromDetails={fromDetails}></ActionButtons>
           </div>
         </div>
   )
