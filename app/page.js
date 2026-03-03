@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <section>
       <LandingHeader></LandingHeader>
-      <section>
+      <section className="py-4">
         <EventList></EventList>
       </section>
     </section>
