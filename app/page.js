@@ -3,8 +3,8 @@ import LandingHeader from "./components/Landing/LandingHeader";
 
 export default function Home() {
   return (
-   <div>
+   <section>
      <LandingHeader></LandingHeader>
-   </div>
+   </section>
   );
 }
