@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function ActionButtons({fromDetails}) {
@@ -9,7 +10,7 @@ export default function ActionButtons({fromDetails}) {
       </button>
 
       {/* <!-- bg-green-600 indicating Active --> */}
-      <button className="w-full">Going</button>
+      <Link href="/payment" className="w-full">Going</Link>
     </div>
   );
 }

@@ -19,7 +19,7 @@ export default function EventCard() {
             </div>
 
             {/* <!-- Buttons --> */}
-            <ActionButtons fromDetails={fromDetails}></ActionButtons>
+            <ActionButtons fromDetails={true}></ActionButtons>
           </div>
         </div>
   )
