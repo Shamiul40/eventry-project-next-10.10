@@ -6,7 +6,7 @@ export default function DetailsPage() {
   return (
     <main>
       <HeroDetails></HeroDetails>
-        <section className="grid grid-cols-5 ">
+        <section className="grid grid-cols-5 my-12 gap-4">
             <DetailsComponents></DetailsComponents>
             <DetailsVenue></DetailsVenue>
         </section>
