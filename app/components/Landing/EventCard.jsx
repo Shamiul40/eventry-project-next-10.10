@@ -7,7 +7,7 @@ import ActionButtons from '../ActionButtons'
 export default function EventCard() {
   return (
     <div className="overflow-hidden rounded-md bg-[#242526]">
-          <Image src={googleImage} alt="Event 1" className="w-full" />
+          <Image src={googleImage} alt="Event 1 image" className="w-full" />
 
           <div className="p-3">
             <Link href="./details/1" className="font-bold text-lg">Google I/O Extended</Link>
