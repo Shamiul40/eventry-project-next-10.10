@@ -18,7 +18,7 @@ export default function DetailsComponents() {
           </p>
 
           <ul className="">
-            <li>🎉 Free Tshirt</li>
+            <li>🎉 Free TShirt</li>
             <li>🕹️ Networking</li>
             <li>🎯 Networking</li>
             <li>📌 Free Foods</li>

@@ -18,7 +18,7 @@ export default function EventCard() {
               <span>40K Going</span>
             </div>
 
-            {/* <!-- Buttons --> */}
+            
             <ActionButtons fromDetails={true}></ActionButtons>
           </div>
         </div>

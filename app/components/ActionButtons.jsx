@@ -4,12 +4,12 @@ import React from "react";
 export default function ActionButtons({fromDetails}) {
   return (
     <div className={`w-full flex gap-4 mt-4 ${fromDetails && "flex-1"}`}>
-      {/* <!-- bg-indigo-600 indicating Active --> */}
+    
       <button className="w-full bg-indigo-600 hover:bg-indigo-800">
         Interested
       </button>
 
-      {/* <!-- bg-green-600 indicating Active --> */}
+
       <Link href="/payment" className="w-full">Going</Link>
     </div>
   );
