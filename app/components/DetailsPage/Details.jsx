@@ -14,7 +14,7 @@ export default function DetailsComponents() {
             software development. This is a fantastic opportunity to chat with
             fellow tech enthusiasts, exchange ideas, and maybe even spark some
             brilliant collaborations. Hosted in the 2nd Floor Training Room at
-            The Power Plant Business Incubator.
+            The Power Business Incubator.
           </p>
 
           <ul className="">
