@@ -13,8 +13,7 @@ export default function DetailsComponents() {
             discuss the latest trends in data analysis, programming, and
             software development. This is a fantastic opportunity to chat with
             fellow tech enthusiasts, exchange ideas, and maybe even spark some
-            brilliant collaborations. Hosted in the 2nd Floor Training Room at
-            The Power.
+            brilliant collaborations. Hosted in the 2nd Floor Training Room.
           </p>
 
           <ul className="">
