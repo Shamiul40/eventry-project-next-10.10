@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Payment() {
   return (
-    <div className="bg-[#242526] p-6 rounded-lg max-w-xl mx-auto my-10">
+    <div className="bg-[#242526] p-8 rounded-lg max-w-xl mx-auto my-10">
       <h2 className="font-bold text-xl mb-8">Payment Details</h2>
 
       <form>
